@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_REGISTRY_CREDS = 'docker-jenkins-token-1'
+        DOCKER_REGISTRY_CREDS = 'docker-jenkins-token-2'
         DOCKER_BFLASK_IMAGE = 'ymnddisanayaka/myjava1:latest'
     }
 
